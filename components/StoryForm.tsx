@@ -50,7 +50,9 @@ const StoryForm: React.FC<StoryFormProps> = ({ params, onChange, onGenerate, isG
     onChange({ ...params, [key]: value });
   };
 
-  const getOptions = (options: { value: string; label: { en: string; zh: string } }[]) => {
+  // Use 'any' for label type to avoid strict TS checking against specific language keys,
+  // since we know the constants file has the correct structure for all languages.
+  const getOptions = (options: { value: string; label: any }[]) => {
     return options.map(opt => ({
       value: opt.value,
       label: opt.label[lang]

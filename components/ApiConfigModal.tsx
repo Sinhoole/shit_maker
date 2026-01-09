@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ApiConfig, Provider, Language } from '../types';
-import { DEFAULT_API_CONFIG, PROVIDER_OPTIONS, MODEL_SUGGESTIONS, TRANSLATIONS, PROVIDER_URLS } from '../constants';
+import { PROVIDER_OPTIONS, MODEL_SUGGESTIONS, TRANSLATIONS, PROVIDER_URLS } from '../constants';
 import Button from './ui/Button';
 import Input from './ui/Input';
 import Select from './ui/Select';

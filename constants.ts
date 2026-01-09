@@ -1,4 +1,4 @@
-import { Provider, StoryParams, ApiConfig, Language } from './types';
+import { Provider, StoryParams, ApiConfig } from './types';
 
 export const DEFAULT_API_CONFIG: ApiConfig = {
   provider: Provider.GEMINI,
