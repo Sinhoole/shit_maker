@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@google/genai": "^1.0.0",
+    "html2canvas": "^1.4.1",
     "lucide-react": "^0.562.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^10.0.0"
   },
   "devDependencies": {
+    "@types/html2canvas": "^1.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.2.0",

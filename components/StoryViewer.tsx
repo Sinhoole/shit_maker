@@ -1,6 +1,6 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Copy, Download, Check, Terminal, Image as ImageIcon, Share2 } from 'lucide-react';
+import { Copy, Download, Check, Terminal, Image as ImageIcon } from 'lucide-react';
 import Button from './ui/Button';
 import { Language, } from '../types';
 import { TRANSLATIONS } from '../constants';
@@ -49,7 +49,7 @@ const StoryViewer: React.FC<StoryViewerProps> = ({ content, lang }) => {
         backgroundColor: '#fdf6e3', // match the retro-paper color
         useCORS: true,
         logging: false,
-        onclone: (clonedDoc) => {
+        onclone: (clonedDoc: Document) => {
            // You can manipulate the cloned document here if needed before screenshot
            const el = clonedDoc.getElementById('story-content-area');
            if (el) {
