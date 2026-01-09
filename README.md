@@ -2,9 +2,24 @@
 
 > **"旨在为社会造大份（大粪）。"**
 
+<div align="center">
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19.0-61dafb.svg)
 ![Vite](https://img.shields.io/badge/Vite-5.0-646cff.svg)
+
+<br/>
+
+<!-- One-Click Deploy Buttons -->
+<a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSinhoole%2Fstory-forge-ai">
+  <img src="https://vercel.com/button" alt="Deploy with Vercel" height="32" />
+</a>
+&nbsp;
+<a href="https://github.com/Sinhoole/story-forge-ai/fork">
+  <img src="https://img.shields.io/badge/Fork-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Fork on GitHub" height="32" />
+</a>
+
+</div>
 
 ## 📖 核心理念 (Manifesto)
 
@@ -48,6 +63,12 @@
 
 ## 🚀 快速开始 (Quick Start)
 
+### ⚡️ 一键光速部署 (Flash Deployment)
+
+不想看复杂的文档？点击下方按钮，立即获得你的专属制造机：
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSinhoole%2Fstory-forge-ai)
+
 ### 本地运行
 
 1.  **克隆仓库**
@@ -70,14 +91,6 @@
     ```bash
     npm run build
     ```
-
-### 部署 (Vercel)
-
-本项目完美支持 Vercel 一键部署：
-
-1.  Fork 本仓库。
-2.  在 Vercel 中导入项目。
-3.  点击 **Deploy**。
 
 ## ⚙️ 配置指南
 

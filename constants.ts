@@ -32,6 +32,7 @@ export const TRANSLATIONS = {
     preview: "OUTPUT STREAM",
     copy: "COPY DATA",
     download: "EXPORT .TXT",
+    shareImage: "SAVE IMAGE",
     placeholderStart: "WAITING FOR INPUT STREAM...",
     
     configTitle: "SYSTEM CONFIGURATION",
@@ -88,6 +89,7 @@ export const TRANSLATIONS = {
     preview: "输出流",
     copy: "拷贝数据",
     download: "导出文本",
+    shareImage: "生成长图",
     placeholderStart: "等待输入数据流...",
     
     configTitle: "系统配置控制台",
@@ -144,6 +146,7 @@ export const TRANSLATIONS = {
     preview: "出力ストリーム",
     copy: "コピー",
     download: "TXT出力",
+    shareImage: "画像保存",
     placeholderStart: "入力ストリーム待機中...",
     
     configTitle: "システム構成",
@@ -200,6 +203,7 @@ export const TRANSLATIONS = {
     preview: "출력 스트림",
     copy: "복사",
     download: "TXT 내보내기",
+    shareImage: "이미지 저장",
     placeholderStart: "입력 스트림 대기 중...",
     
     configTitle: "시스템 구성",
@@ -256,6 +260,7 @@ export const TRANSLATIONS = {
     preview: "Вывод",
     copy: "Копировать",
     download: "Скачать TXT",
+    shareImage: "Сохранить изображение",
     placeholderStart: "Ожидание ввода...",
     
     configTitle: "Конфигурация системы",
